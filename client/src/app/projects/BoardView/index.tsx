@@ -4,7 +4,7 @@ import { HTML5Backend } from "react-dnd-html5-backend";
 import { EllipsisVertical, MessageSquareMore, Plus } from "lucide-react";
 import { format } from "date-fns";
 import Image from "next/image";
-import { Task } from "@/lib/types";
+import { Task as TaskType } from "@/lib/types";
 import useFetch from "@/lib/hooks/useFetch";
 import useUpdate from "@/lib/hooks/useUpdate";
 
@@ -20,7 +20,7 @@ const BoardView = ({ id, setIsModalNewTaskOpen }: BoardProps) => {
     data: tasks,
     isLoading,
     error,
-  } = useFetch<Task[]>(`api/tasks?projectId=${Number(id)}`);
+  } = useFetch<TaskType[]>(`api/tasks?projectId=${Number(id)}`);
   // const [updateTaskStatus] = useUpdateTaskStatusMutation();
   const {update} = useUpdate(`api/projects/${id}`)
 
@@ -51,7 +51,7 @@ const BoardView = ({ id, setIsModalNewTaskOpen }: BoardProps) => {
 
 type TaskColumnProps = {
   status: string;
-  tasks: Task[];
+  tasks: TaskType[];
   moveTask: (taskId: number, toStatus: string) => void;
   setIsModalNewTaskOpen: (isOpen: boolean) => void;
 };
@@ -125,7 +125,7 @@ const TaskColumn = ({
 };
 
 type TaskProps = {
-  task: Task;
+  task: TaskType;
 };
 
 const Task = ({ task }: TaskProps) => {
@@ -148,7 +148,7 @@ const Task = ({ task }: TaskProps) => {
 
   const numberOfComments = (task.comments && task.comments.length) || 0;
 
-  const PriorityTag = ({ priority }: { priority: Task["priority"] }) => (
+  const PriorityTag = ({ priority }: { priority: TaskType["priority"] }) => (
     <div
       className={`rounded-full px-2 py-1 text-xs font-semibold ${
         priority === "Urgent"
