@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import { dataGridClassNames, dataGridSxStyles } from "@/lib/utils";
 import { DataGrid, GridColDef } from "@mui/x-data-grid";
 import React from "react";
-import { useAppContext } from "../../../providers/AppContextProvider";
+import { useAppContext } from "../../providers/AppContextProvider";
 import { Task } from "@/lib/types";
 import useFetch from "@/lib/hooks/useFetch";
 
@@ -67,7 +67,7 @@ const columns: GridColDef[] = [
 ];
 
 const TableView = ({ id, setIsModalNewTaskOpen }: Props) => {
-  const {isDarkMode} = useAppContext() as { isDarkMode: boolean };
+  const { isDarkMode } = useAppContext() as { isDarkMode: boolean };
   const {
     data: tasks,
     isLoading,
