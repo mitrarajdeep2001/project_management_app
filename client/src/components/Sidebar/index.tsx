@@ -3,7 +3,6 @@
 import useFetch from "@/lib/hooks/useFetch";
 import { useAppContext } from "@/providers/AppContextProvider";
 import { setIsSidebarCollapsed } from "@/state";
-import { signOut } from "aws-amplify/auth";
 import {
   AlertCircle,
   AlertOctagon,
@@ -36,7 +35,6 @@ const Sidebar = () => {
   const {isSidebarCollapsed, setSidebarCollapsed} = useAppContext()
   const handleSignOut = async () => {
     try {
-      await signOut();
     } catch (error) {
       console.error("Error signing out: ", error);
     }

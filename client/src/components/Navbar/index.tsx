@@ -1,7 +1,6 @@
 import React from "react";
 import { Menu, Moon, Search, Settings, Sun, User } from "lucide-react";
 import Link from "next/link";
-import { signOut } from "aws-amplify/auth";
 import Image from "next/image";
 import { useAppContext } from "@/providers/AppContextProvider";
 
@@ -11,7 +10,6 @@ const Navbar = () => {
 
   const handleSignOut = async () => {
     try {
-      await signOut();
     } catch (error) {
       console.error("Error signing out: ", error);
     }
