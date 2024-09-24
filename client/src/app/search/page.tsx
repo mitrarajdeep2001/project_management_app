@@ -4,7 +4,8 @@ import Header from "@/components/Header";
 import ProjectCard from "@/components/ProjectCard";
 import TaskCard from "@/components/TaskCard";
 import UserCard from "@/components/UserCard";
-import { useSearchQuery } from "@/state/api";
+import useFetch from "@/lib/hooks/useFetch";
+import { SearchResults } from "@/lib/types";
 import { debounce } from "lodash";
 import React, { useEffect, useState } from "react";
 
@@ -13,10 +14,8 @@ const Search = () => {
   const {
     data: searchResults,
     isLoading,
-    isError,
-  } = useSearchQuery(searchTerm, {
-    skip: searchTerm.length < 3,
-  });
+    error: isError,
+  } = useFetch<SearchResults>(`api/search?query=${searchTerm}`);
 
   const handleSearch = debounce(
     (event: React.ChangeEvent<HTMLInputElement>) => {

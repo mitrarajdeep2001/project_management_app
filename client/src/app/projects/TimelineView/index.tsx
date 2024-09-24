@@ -1,8 +1,6 @@
-import { useAppSelector } from "@/app/redux";
 import useFetch from "@/lib/hooks/useFetch";
 import { Task } from "@/lib/types";
 import { useAppContext } from "@/providers/AppContextProvider";
-import { useGetTasksQuery } from "@/state/api";
 import { DisplayOption, Gantt, ViewMode } from "gantt-task-react";
 import "gantt-task-react/dist/index.css";
 import React, { useMemo, useState } from "react";
