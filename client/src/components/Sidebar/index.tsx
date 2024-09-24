@@ -2,7 +2,6 @@
 
 import useFetch from "@/lib/hooks/useFetch";
 import { useAppContext } from "@/providers/AppContextProvider";
-import { setIsSidebarCollapsed } from "@/state";
 import {
   AlertCircle,
   AlertOctagon,
