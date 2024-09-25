@@ -19,7 +19,7 @@ export const getUser = async (req: Request, res: Response): Promise<void> => {
   try {
     const user = await prisma.user.findUnique({
       where: {
-        id: id,
+        userId: +id,
       },
     });
 
@@ -35,14 +35,14 @@ export const postUser = async (req: Request, res: Response) => {
   try {
     const {
       username,
-      id,
-      profilePictureUrl = "i1.jpg",
-      teamId = 1,
+      email,
+      profilePictureUrl,
+      teamId,
     } = req.body;
     const newUser = await prisma.user.create({
       data: {
         username,
-        id,
+        email,
         profilePictureUrl,
         teamId,
       },

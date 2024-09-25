@@ -1,122 +1,122 @@
 [
   {
     "username": "AliceJones",
+    "email": "xyz@gmail.com",
     "teamId": 1,
-    "profilePictureUrl": "p1.jpeg",
-    "id": "123e4567-e89b-12d3-a456-426614174001"
+    "profilePictureUrl": "p1.jpeg"
   },
   {
     "username": "BobSmith",
+    "email": "abc@gmail.com",
     "teamId": 2,
-    "profilePictureUrl": "p2.jpeg",
-    "id": "123e4567-e89b-12d3-a456-426614174002"
+    "profilePictureUrl": "p2.jpeg"
   },
   {
     "username": "CarolWhite",
+    "email": "efg@gmail.com",
     "teamId": 3,
-    "profilePictureUrl": "p3.jpeg",
-    "id": "123e4567-e89b-12d3-a456-426614174003"
+    "profilePictureUrl": "p3.jpeg"
   },
   {
     "username": "DaveBrown",
+    "email": "ijtk@gmail.com",
     "teamId": 4,
-    "profilePictureUrl": "p4.jpeg",
-    "id": "213b7530-1031-70e0-67e9-fe0805e18fb3"
+    "profilePictureUrl": "p4.jpeg"
   },
   {
     "username": "EveClark",
+    "email": "lhmn@gmail.com",
     "teamId": 5,
-    "profilePictureUrl": "p5.jpeg",
-    "id": "123e4567-e89b-12d3-a456-426614174005"
+    "profilePictureUrl": "p5.jpeg"
   },
   {
     "username": "FrankWright",
+    "email": "opoq@gmail.com",
     "teamId": 1,
-    "profilePictureUrl": "p6.jpeg",
-    "id": "123e4567-e89b-12d3-a456-426614174006"
+    "profilePictureUrl": "p6.jpeg"
   },
   {
     "username": "GraceHall",
+    "email": "rsut@gmail.com",
     "teamId": 2,
-    "profilePictureUrl": "p7.jpeg",
-    "id": "123e4567-e89b-12d3-a456-426614174007"
+    "profilePictureUrl": "p7.jpeg"
   },
   {
     "username": "HenryAllen",
+    "email": "wxy@gmail.com",
     "teamId": 3,
-    "profilePictureUrl": "p8.jpeg",
-    "id": "123e4567-e89b-12d3-a456-426614174008"
+    "profilePictureUrl": "p8.jpeg"
   },
   {
     "username": "IdaMartin",
+    "email": "zab@gmail.com",
     "teamId": 4,
-    "profilePictureUrl": "p9.jpeg",
-    "id": "123e4567-e89b-12d3-a456-426614174009"
+    "profilePictureUrl": "p9.jpeg"
   },
   {
     "username": "JohnDoe",
+    "email": "cde@gmail.com",
     "teamId": 5,
-    "profilePictureUrl": "p10.jpeg",
-    "id": "123e4567-e89b-12d3-a456-426614174010"
+    "profilePictureUrl": "p10.jpeg"
   },
   {
     "username": "LauraAdams",
+    "email": "fgh@gmail.com",
     "teamId": 1,
-    "profilePictureUrl": "p11.jpeg",
-    "id": "123e4567-e89b-12d3-a456-426614174011"
+    "profilePictureUrl": "p11.jpeg"
   },
   {
     "username": "NormanBates",
+    "email": "ijk@gmail.com",
     "teamId": 2,
-    "profilePictureUrl": "p12.jpeg",
-    "id": "123e4567-e89b-12d3-a456-426614174012"
+    "profilePictureUrl": "p12.jpeg"
   },
   {
     "username": "OliviaPace",
+    "email": "lmn@gmail.com",
     "teamId": 3,
-    "profilePictureUrl": "p13.jpeg",
-    "id": "123e4567-e89b-12d3-a456-426614174013"
+    "profilePictureUrl": "p13.jpeg"
   },
   {
     "username": "PeterQuill",
+    "email": "opq@gmail.com",
     "teamId": 4,
-    "profilePictureUrl": "p1.jpeg",
-    "id": "123e4567-e89b-12d3-a456-426614174014"
+    "profilePictureUrl": "p1.jpeg"
   },
   {
     "username": "QuincyAdams",
+    "email": "sam@gmail.com",
     "teamId": 5,
-    "profilePictureUrl": "p2.jpeg",
-    "id": "123e4567-e89b-12d3-a456-426614174015"
+    "profilePictureUrl": "p2.jpeg"
   },
   {
     "username": "RachelGreen",
+    "email": "mon@gmail.com",
     "teamId": 1,
-    "profilePictureUrl": "p3.jpeg",
-    "id": "123e4567-e89b-12d3-a456-426614174016"
+    "profilePictureUrl": "p3.jpeg"
   },
   {
     "username": "SteveJobs",
+    "email": "shinchan@gmail.com",
     "teamId": 2,
-    "profilePictureUrl": "p4.jpeg",
-    "id": "123e4567-e89b-12d3-a456-426614174017"
+    "profilePictureUrl": "p4.jpeg"
   },
   {
     "username": "TinaFey",
+    "email": "doraemon@gmail.com",
     "teamId": 3,
-    "profilePictureUrl": "p5.jpeg",
-    "id": "123e4567-e89b-12d3-a456-426614174018"
+    "profilePictureUrl": "p5.jpeg"
   },
   {
     "username": "UrsulaMonroe",
+    "email": "nobita@gmail.com",
     "teamId": 4,
-    "profilePictureUrl": "p6.jpeg",
-    "id": "123e4567-e89b-12d3-a456-426614174019"
+    "profilePictureUrl": "p6.jpeg"
   },
   {
     "username": "VictorHugo",
+    "email": "ram@gmail.com",
     "teamId": 5,
-    "profilePictureUrl": "p7.jpeg",
-    "id": "123e4567-e89b-12d3-a456-426614174020"
+    "profilePictureUrl": "p7.jpeg"
   }
 ]
